@@ -25,8 +25,6 @@ module.exports = {
     //判断页面是否存在相册
     getTitle(html) {
         const $ = cheerio.load(html);
-        console.log($('#htilte').text());
-        return;
         if ($('#htilte').text()) {
             downloadPath = basePath + $('#htilte').text();
             //创建相册
