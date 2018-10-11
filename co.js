@@ -12,7 +12,6 @@ const headers = {
 const basePath = 'H:/hzq/node_reptile_data/';
 
 let downloadPath;
-let pageIndex = 1;
 
 module.exports = {
     //请求页面
